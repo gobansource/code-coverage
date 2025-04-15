@@ -7,8 +7,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - uses: actions/checkout@v2
+        permissions: write-all
       - name: Run a multi-line script
         run: |
           tree -d -H '.' -L 3 --noreport --charset utf-8 >index.html
