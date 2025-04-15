@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a multi-line script
+        run: |
+          tree -d -H '.' -L 3 --noreport --charset utf-8 >index.html
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "update index.html"
+          git push
