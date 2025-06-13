@@ -1,0 +1,32 @@
+Summary
+  Generated on: 06/13/2025 - 04:21:23
+  Coverage date: 06/13/2025 - 04:21:20
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 10
+  Files: 8
+  Line coverage: 91.7%
+  Covered lines: 267
+  Uncovered lines: 24
+  Coverable lines: 291
+  Total lines: 571
+  Branch coverage: 84% (42 of 50)
+  Covered branches: 42
+  Total branches: 50
+  Method coverage: 86.4% (32 of 37)
+  Full method coverage: 78.3% (29 of 37)
+  Covered methods: 32
+  Fully covered methods: 29
+  Total methods: 37
+
+GobanSource.ReplicatedLruCache                                                   91.7%
+  GobanSource.ReplicatedLruCache.CacheInterceptor                                 100%
+  GobanSource.ReplicatedLruCache.CacheMessage                                     100%
+  GobanSource.ReplicatedLruCache.CacheMessageHandler                             91.8%
+  GobanSource.ReplicatedLruCache.CacheMetrics                                       0%
+  GobanSource.ReplicatedLruCache.LruCache                                         100%
+  GobanSource.ReplicatedLruCache.RedisSyncBusOptions                              100%
+  GobanSource.ReplicatedLruCache.ReplicatedLruCache                               100%
+  GobanSource.ReplicatedLruCache.ReplicatedLruCacheFactory                        100%
+  GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions                        100%
+  GobanSource.ReplicatedLruCache.ReplicatedLruCacheServiceCollectionExtensions   86.2%
