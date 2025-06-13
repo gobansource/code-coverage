@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.916955017301038" branch-rate="0.8269230769230769" lines-covered="265" lines-valid="289" branches-covered="43" branches-valid="52" complexity="76" version="0" timestamp="1749807678">
+  <sources>
+    <source>/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/</source>
+  </sources>
+  <packages>
+    <package name="GobanSource.ReplicatedLruCache" line-rate="0.916955017301038" branch-rate="0.8269230769230769" complexity="76">
+      <classes>
+        <class name="GobanSource.ReplicatedLruCache.CacheMessage" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/CacheMessage.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_CacheInstanceId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3454049" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Operation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2072421" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Key" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="3914484" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="2072358" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TTL" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1611901" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="3454049" branch="false" />
+            <line number="20" hits="2072421" branch="false" />
+            <line number="25" hits="3914484" branch="false" />
+            <line number="30" hits="2072358" branch="false" />
+            <line number="35" hits="1611901" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.CacheMessageHandler" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/CacheMessageHandler.cs" line-rate="0.918918918918919" branch-rate="0.8333333333333334" complexity="7">
+          <methods>
+            <method name=".ctor" signature="(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger`1&lt;GobanSource.ReplicatedLruCache.CacheMessageHandler&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="129" branch="false" />
+                <line number="17" hits="129" branch="false" />
+                <line number="18" hits="129" branch="false" />
+                <line number="19" hits="129" branch="false" />
+                <line number="20" hits="129" branch="false" />
+              </lines>
+            </method>
+            <method name="HandleAsync" signature="()" line-rate="0.90625" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="24" hits="460463" branch="false" />
+                <line number="25" hits="460463" branch="false" />
+                <line number="27" hits="460463" branch="false" />
+                <line number="29" hits="460463" branch="true" condition-coverage="100% (2/2)" />
+                <line number="30" hits="5" branch="false" />
+                <line number="31" hits="5" branch="false" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+                <line number="37" hits="460458" branch="false" />
+                <line number="38" hits="460458" branch="true" condition-coverage="75% (3/4)" />
+                <line number="41" hits="460432" branch="false" />
+                <line number="42" hits="460432" branch="false" />
+                <line number="43" hits="460430" branch="false" />
+                <line number="44" hits="460430" branch="false" />
+                <line number="46" hits="18" branch="false" />
+                <line number="47" hits="18" branch="false" />
+                <line number="48" hits="18" branch="false" />
+                <line number="49" hits="18" branch="false" />
+                <line number="51" hits="8" branch="false" />
+                <line number="52" hits="8" branch="false" />
+                <line number="53" hits="8" branch="false" />
+                <line number="54" hits="8" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="60" hits="460456" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
+                <line number="63" hits="2" branch="false" />
+                <line number="64" hits="2" branch="false" />
+                <line number="65" hits="2" branch="false" />
+                <line number="66" hits="460463" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="129" branch="false" />
+            <line number="17" hits="129" branch="false" />
+            <line number="18" hits="129" branch="false" />
+            <line number="19" hits="129" branch="false" />
+            <line number="20" hits="129" branch="false" />
+            <line number="24" hits="460463" branch="false" />
+            <line number="25" hits="460463" branch="false" />
+            <line number="27" hits="460463" branch="false" />
+            <line number="29" hits="460463" branch="true" condition-coverage="100% (2/2)" />
+            <line number="30" hits="5" branch="false" />
+            <line number="31" hits="5" branch="false" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+            <line number="37" hits="460458" branch="false" />
+            <line number="38" hits="460458" branch="true" condition-coverage="75% (3/4)" />
+            <line number="41" hits="460432" branch="false" />
+            <line number="42" hits="460432" branch="false" />
+            <line number="43" hits="460430" branch="false" />
+            <line number="44" hits="460430" branch="false" />
+            <line number="46" hits="18" branch="false" />
+            <line number="47" hits="18" branch="false" />
+            <line number="48" hits="18" branch="false" />
+            <line number="49" hits="18" branch="false" />
+            <line number="51" hits="8" branch="false" />
+            <line number="52" hits="8" branch="false" />
+            <line number="53" hits="8" branch="false" />
+            <line number="54" hits="8" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="60" hits="460456" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="64" hits="2" branch="false" />
+            <line number="65" hits="2" branch="false" />
+            <line number="66" hits="460463" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.CacheMetrics" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/Instrumentation/CacheMetrics.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_MeterName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="RecordHit" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="RecordMiss" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.LruCache" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/LruCache.cs" line-rate="1" branch-rate="0.9166666666666666" complexity="27">
+          <methods>
+            <method name="UpdateLru" signature="(System.String,GobanSource.ReplicatedLruCache.LruCache/LruOperation)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="31" hits="1218707" branch="false" />
+                <line number="32" hits="1218707" branch="false" />
+                <line number="34" hits="1218707" branch="false" />
+                <line number="35" hits="1218707" branch="true" condition-coverage="100% (4/4)" />
+                <line number="38" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="381692" branch="false" />
+                <line number="40" hits="381692" branch="false" />
+                <line number="41" hits="381692" branch="false" />
+                <line number="43" hits="1100205" branch="false" />
+                <line number="44" hits="1100205" branch="false" />
+                <line number="46" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+                <line number="47" hits="339592" branch="false" />
+                <line number="48" hits="339592" branch="false" />
+                <line number="49" hits="339592" branch="false" />
+                <line number="50" hits="339592" branch="false" />
+                <line number="51" hits="339592" branch="false" />
+                <line number="52" hits="339592" branch="false" />
+                <line number="53" hits="1100205" branch="false" />
+                <line number="56" hits="118492" branch="true" condition-coverage="100% (2/2)" />
+                <line number="57" hits="104299" branch="false" />
+                <line number="58" hits="104299" branch="false" />
+                <line number="59" hits="104299" branch="false" />
+                <line number="60" hits="118492" branch="false" />
+                <line number="63" hits="10" branch="false" />
+                <line number="64" hits="10" branch="false" />
+                <line number="65" hits="10" branch="false" />
+                <line number="67" hits="1218707" branch="false" />
+                <line number="69" hits="1218707" branch="false" />
+                <line number="70" hits="1218707" branch="false" />
+                <line number="71" hits="1218707" branch="false" />
+                <line number="72" hits="1218707" branch="false" />
+              </lines>
+            </method>
+            <method name="Set" signature="(System.String,System.String,System.Nullable`1&lt;System.TimeSpan&gt;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="99" hits="755756" branch="false" />
+                <line number="100" hits="755756" branch="false" />
+                <line number="102" hits="755756" branch="false" />
+                <line number="103" hits="755756" branch="false" />
+                <line number="104" hits="755756" branch="false" />
+                <line number="106" hits="755756" branch="true" condition-coverage="100% (2/2)" />
+                <line number="107" hits="30024" branch="false" />
+                <line number="108" hits="30024" branch="false" />
+                <line number="109" hits="30024" branch="false" />
+                <line number="111" hits="755756" branch="false" />
+                <line number="112" hits="755756" branch="false" />
+                <line number="113" hits="755756" branch="false" />
+                <line number="115" hits="755756" branch="false" />
+                <line number="116" hits="755756" branch="false" />
+                <line number="117" hits="755756" branch="false" />
+                <line number="118" hits="755756" branch="false" />
+              </lines>
+            </method>
+            <method name="TryGet" signature="(System.String,System.String&amp;)" line-rate="1" branch-rate="0.6666666666666666" complexity="6">
+              <lines>
+                <line number="121" hits="1002628" branch="false" />
+                <line number="122" hits="1002628" branch="false" />
+                <line number="124" hits="1002628" branch="false" />
+                <line number="125" hits="1002628" branch="true" condition-coverage="100% (2/2)" />
+                <line number="126" hits="344449" branch="false" />
+                <line number="127" hits="344449" branch="false" />
+                <line number="128" hits="344449" branch="false" />
+                <line number="129" hits="344449" branch="true" condition-coverage="50% (1/2)" />
+                <line number="130" hits="344449" branch="false" />
+                <line number="132" hits="658179" branch="false" />
+                <line number="134" hits="1002628" branch="false" />
+                <line number="135" hits="1002628" branch="false" />
+                <line number="136" hits="1002628" branch="false" />
+                <line number="138" hits="658179" branch="false" />
+                <line number="139" hits="658179" branch="true" condition-coverage="50% (1/2)" />
+                <line number="140" hits="658179" branch="false" />
+                <line number="141" hits="1002628" branch="false" />
+              </lines>
+            </method>
+            <method name="Remove" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="144" hits="27" branch="false" />
+                <line number="145" hits="27" branch="false" />
+                <line number="147" hits="27" branch="false" />
+                <line number="148" hits="27" branch="false" />
+                <line number="149" hits="27" branch="false" />
+                <line number="150" hits="27" branch="false" />
+                <line number="152" hits="27" branch="false" />
+                <line number="153" hits="27" branch="false" />
+                <line number="154" hits="27" branch="false" />
+                <line number="155" hits="27" branch="false" />
+              </lines>
+            </method>
+            <method name="Clear" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="158" hits="10" branch="false" />
+                <line number="159" hits="10" branch="false" />
+                <line number="160" hits="10" branch="false" />
+                <line number="161" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="OnEntryEvicted" signature="(System.Object,System.Object,Microsoft.Extensions.Caching.Memory.EvictionReason,System.Object)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="173" hits="458100" branch="false" />
+                <line number="175" hits="458100" branch="true" condition-coverage="100% (2/2)" />
+                <line number="176" hits="118465" branch="false" />
+                <line number="177" hits="118465" branch="true" condition-coverage="100% (2/2)" />
+                <line number="178" hits="118465" branch="false" />
+                <line number="179" hits="118465" branch="false" />
+                <line number="180" hits="458100" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Count" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="182" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,Microsoft.Extensions.Logging.ILogger`1&lt;GobanSource.ReplicatedLruCache.LruCache&gt;,GobanSource.ReplicatedLruCache.CacheMetrics,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="14" hits="139" branch="false" />
+                <line number="15" hits="139" branch="false" />
+                <line number="17" hits="139" branch="false" />
+                <line number="18" hits="139" branch="false" />
+                <line number="31" hits="1218707" branch="false" />
+                <line number="32" hits="1218707" branch="false" />
+                <line number="34" hits="1218707" branch="false" />
+                <line number="35" hits="1218707" branch="true" condition-coverage="100% (4/4)" />
+                <line number="38" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="381692" branch="false" />
+                <line number="40" hits="381692" branch="false" />
+                <line number="41" hits="381692" branch="false" />
+                <line number="43" hits="1100205" branch="false" />
+                <line number="44" hits="1100205" branch="false" />
+                <line number="46" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+                <line number="47" hits="339592" branch="false" />
+                <line number="48" hits="339592" branch="false" />
+                <line number="49" hits="339592" branch="false" />
+                <line number="50" hits="339592" branch="false" />
+                <line number="51" hits="339592" branch="false" />
+                <line number="52" hits="339592" branch="false" />
+                <line number="53" hits="1100205" branch="false" />
+                <line number="56" hits="118492" branch="true" condition-coverage="100% (2/2)" />
+                <line number="57" hits="104299" branch="false" />
+                <line number="58" hits="104299" branch="false" />
+                <line number="59" hits="104299" branch="false" />
+                <line number="60" hits="118492" branch="false" />
+                <line number="63" hits="10" branch="false" />
+                <line number="64" hits="10" branch="false" />
+                <line number="65" hits="10" branch="false" />
+                <line number="67" hits="1218707" branch="false" />
+                <line number="69" hits="1218707" branch="false" />
+                <line number="70" hits="1218707" branch="false" />
+                <line number="71" hits="1218707" branch="false" />
+                <line number="72" hits="1218707" branch="false" />
+                <line number="74" hits="139" branch="false" />
+                <line number="75" hits="139" branch="false" />
+                <line number="76" hits="139" branch="false" />
+                <line number="77" hits="139" branch="false" />
+                <line number="78" hits="139" branch="false" />
+                <line number="79" hits="139" branch="true" condition-coverage="100% (2/2)" />
+                <line number="80" hits="139" branch="false" />
+                <line number="81" hits="139" branch="false" />
+                <line number="82" hits="139" branch="false" />
+                <line number="83" hits="139" branch="false" />
+                <line number="84" hits="139" branch="false" />
+                <line number="85" hits="139" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="139" branch="false" />
+            <line number="15" hits="139" branch="false" />
+            <line number="17" hits="139" branch="false" />
+            <line number="18" hits="139" branch="false" />
+            <line number="31" hits="1218707" branch="false" />
+            <line number="32" hits="1218707" branch="false" />
+            <line number="34" hits="1218707" branch="false" />
+            <line number="35" hits="1218707" branch="true" condition-coverage="100% (4/4)" />
+            <line number="38" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="381692" branch="false" />
+            <line number="40" hits="381692" branch="false" />
+            <line number="41" hits="381692" branch="false" />
+            <line number="43" hits="1100205" branch="false" />
+            <line number="44" hits="1100205" branch="false" />
+            <line number="46" hits="1100205" branch="true" condition-coverage="100% (2/2)" />
+            <line number="47" hits="339592" branch="false" />
+            <line number="48" hits="339592" branch="false" />
+            <line number="49" hits="339592" branch="false" />
+            <line number="50" hits="339592" branch="false" />
+            <line number="51" hits="339592" branch="false" />
+            <line number="52" hits="339592" branch="false" />
+            <line number="53" hits="1100205" branch="false" />
+            <line number="56" hits="118492" branch="true" condition-coverage="100% (2/2)" />
+            <line number="57" hits="104299" branch="false" />
+            <line number="58" hits="104299" branch="false" />
+            <line number="59" hits="104299" branch="false" />
+            <line number="60" hits="118492" branch="false" />
+            <line number="63" hits="10" branch="false" />
+            <line number="64" hits="10" branch="false" />
+            <line number="65" hits="10" branch="false" />
+            <line number="67" hits="1218707" branch="false" />
+            <line number="69" hits="1218707" branch="false" />
+            <line number="70" hits="1218707" branch="false" />
+            <line number="71" hits="1218707" branch="false" />
+            <line number="72" hits="1218707" branch="false" />
+            <line number="74" hits="139" branch="false" />
+            <line number="75" hits="139" branch="false" />
+            <line number="76" hits="139" branch="false" />
+            <line number="77" hits="139" branch="false" />
+            <line number="78" hits="139" branch="false" />
+            <line number="79" hits="139" branch="true" condition-coverage="100% (2/2)" />
+            <line number="80" hits="139" branch="false" />
+            <line number="81" hits="139" branch="false" />
+            <line number="82" hits="139" branch="false" />
+            <line number="83" hits="139" branch="false" />
+            <line number="84" hits="139" branch="false" />
+            <line number="85" hits="139" branch="false" />
+            <line number="99" hits="755756" branch="false" />
+            <line number="100" hits="755756" branch="false" />
+            <line number="102" hits="755756" branch="false" />
+            <line number="103" hits="755756" branch="false" />
+            <line number="104" hits="755756" branch="false" />
+            <line number="106" hits="755756" branch="true" condition-coverage="100% (2/2)" />
+            <line number="107" hits="30024" branch="false" />
+            <line number="108" hits="30024" branch="false" />
+            <line number="109" hits="30024" branch="false" />
+            <line number="111" hits="755756" branch="false" />
+            <line number="112" hits="755756" branch="false" />
+            <line number="113" hits="755756" branch="false" />
+            <line number="115" hits="755756" branch="false" />
+            <line number="116" hits="755756" branch="false" />
+            <line number="117" hits="755756" branch="false" />
+            <line number="118" hits="755756" branch="false" />
+            <line number="121" hits="1002628" branch="false" />
+            <line number="122" hits="1002628" branch="false" />
+            <line number="124" hits="1002628" branch="false" />
+            <line number="125" hits="1002628" branch="true" condition-coverage="100% (2/2)" />
+            <line number="126" hits="344449" branch="false" />
+            <line number="127" hits="344449" branch="false" />
+            <line number="128" hits="344449" branch="false" />
+            <line number="129" hits="344449" branch="true" condition-coverage="50% (1/2)" />
+            <line number="130" hits="344449" branch="false" />
+            <line number="132" hits="658179" branch="false" />
+            <line number="134" hits="1002628" branch="false" />
+            <line number="135" hits="1002628" branch="false" />
+            <line number="136" hits="1002628" branch="false" />
+            <line number="138" hits="658179" branch="false" />
+            <line number="139" hits="658179" branch="true" condition-coverage="50% (1/2)" />
+            <line number="140" hits="658179" branch="false" />
+            <line number="141" hits="1002628" branch="false" />
+            <line number="144" hits="27" branch="false" />
+            <line number="145" hits="27" branch="false" />
+            <line number="147" hits="27" branch="false" />
+            <line number="148" hits="27" branch="false" />
+            <line number="149" hits="27" branch="false" />
+            <line number="150" hits="27" branch="false" />
+            <line number="152" hits="27" branch="false" />
+            <line number="153" hits="27" branch="false" />
+            <line number="154" hits="27" branch="false" />
+            <line number="155" hits="27" branch="false" />
+            <line number="158" hits="10" branch="false" />
+            <line number="159" hits="10" branch="false" />
+            <line number="160" hits="10" branch="false" />
+            <line number="161" hits="10" branch="false" />
+            <line number="173" hits="458100" branch="false" />
+            <line number="175" hits="458100" branch="true" condition-coverage="100% (2/2)" />
+            <line number="176" hits="118465" branch="false" />
+            <line number="177" hits="118465" branch="true" condition-coverage="100% (2/2)" />
+            <line number="178" hits="118465" branch="false" />
+            <line number="179" hits="118465" branch="false" />
+            <line number="180" hits="458100" branch="false" />
+            <line number="182" hits="11" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.RedisSyncBusOptions" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCacheOptions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_ConnectionString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="533" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ChannelPrefix" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="431" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="533" branch="false" />
+            <line number="7" hits="431" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.ReplicatedLruCache" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCache.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="TryGet" signature="(System.String,System.String&amp;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="942108" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(GobanSource.ReplicatedLruCache.ILruCache,GobanSource.Bus.Redis.IRedisSyncBus`1&lt;GobanSource.ReplicatedLruCache.CacheMessage&gt;,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="132" branch="false" />
+                <line number="13" hits="132" branch="false" />
+                <line number="14" hits="132" branch="false" />
+                <line number="15" hits="132" branch="false" />
+                <line number="16" hits="132" branch="false" />
+                <line number="17" hits="132" branch="false" />
+                <line number="18" hits="132" branch="false" />
+                <line number="19" hits="132" branch="false" />
+                <line number="20" hits="132" branch="false" />
+                <line number="21" hits="132" branch="false" />
+              </lines>
+            </method>
+            <method name="Clear" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="5" branch="false" />
+                <line number="52" hits="5" branch="false" />
+                <line number="53" hits="5" branch="false" />
+                <line number="54" hits="5" branch="false" />
+                <line number="55" hits="5" branch="false" />
+                <line number="56" hits="5" branch="false" />
+                <line number="57" hits="5" branch="false" />
+                <line number="58" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="Remove" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="11" branch="false" />
+                <line number="41" hits="11" branch="false" />
+                <line number="42" hits="11" branch="false" />
+                <line number="43" hits="11" branch="false" />
+                <line number="44" hits="11" branch="false" />
+                <line number="45" hits="11" branch="false" />
+                <line number="46" hits="11" branch="false" />
+                <line number="47" hits="11" branch="false" />
+                <line number="48" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="Set" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="230321" branch="false" />
+                <line number="25" hits="230321" branch="false" />
+                <line number="26" hits="230321" branch="false" />
+                <line number="27" hits="230321" branch="false" />
+                <line number="28" hits="230321" branch="false" />
+                <line number="29" hits="230321" branch="false" />
+                <line number="30" hits="230321" branch="false" />
+                <line number="31" hits="230321" branch="false" />
+                <line number="32" hits="230321" branch="false" />
+                <line number="33" hits="230321" branch="false" />
+                <line number="34" hits="230320" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="132" branch="false" />
+            <line number="13" hits="132" branch="false" />
+            <line number="14" hits="132" branch="false" />
+            <line number="15" hits="132" branch="false" />
+            <line number="16" hits="132" branch="false" />
+            <line number="17" hits="132" branch="false" />
+            <line number="18" hits="132" branch="false" />
+            <line number="19" hits="132" branch="false" />
+            <line number="20" hits="132" branch="false" />
+            <line number="21" hits="132" branch="false" />
+            <line number="24" hits="230321" branch="false" />
+            <line number="25" hits="230321" branch="false" />
+            <line number="26" hits="230321" branch="false" />
+            <line number="27" hits="230321" branch="false" />
+            <line number="28" hits="230321" branch="false" />
+            <line number="29" hits="230321" branch="false" />
+            <line number="30" hits="230321" branch="false" />
+            <line number="31" hits="230321" branch="false" />
+            <line number="32" hits="230321" branch="false" />
+            <line number="33" hits="230321" branch="false" />
+            <line number="34" hits="230320" branch="false" />
+            <line number="37" hits="942108" branch="false" />
+            <line number="40" hits="11" branch="false" />
+            <line number="41" hits="11" branch="false" />
+            <line number="42" hits="11" branch="false" />
+            <line number="43" hits="11" branch="false" />
+            <line number="44" hits="11" branch="false" />
+            <line number="45" hits="11" branch="false" />
+            <line number="46" hits="11" branch="false" />
+            <line number="47" hits="11" branch="false" />
+            <line number="48" hits="10" branch="false" />
+            <line number="51" hits="5" branch="false" />
+            <line number="52" hits="5" branch="false" />
+            <line number="53" hits="5" branch="false" />
+            <line number="54" hits="5" branch="false" />
+            <line number="55" hits="5" branch="false" />
+            <line number="56" hits="5" branch="false" />
+            <line number="57" hits="5" branch="false" />
+            <line number="58" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.ReplicatedLruCacheFactory" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCacheFactory.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Create" signature="(System.String,GobanSource.ReplicatedLruCache.ILruCache,GobanSource.Bus.Redis.IRedisSyncBus`1&lt;GobanSource.ReplicatedLruCache.CacheMessage&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="123" branch="false" />
+                <line number="13" hits="123" branch="false" />
+                <line number="15" hits="123" branch="false" />
+                <line number="16" hits="123" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="123" branch="false" />
+            <line number="13" hits="123" branch="false" />
+            <line number="15" hits="123" branch="false" />
+            <line number="16" hits="123" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCacheOptions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_AppId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="646" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RedisSyncBus" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="860" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="646" branch="false" />
+            <line number="13" hits="860" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.ReplicatedLruCacheProxy`1" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCacheFactory.cs" line-rate="1" branch-rate="0.5" complexity="3">
+          <methods>
+            <method name="Create" signature="(GobanSource.ReplicatedLruCache.ReplicatedLruCache)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="123" branch="false" />
+                <line number="26" hits="123" branch="false" />
+                <line number="27" hits="123" branch="false" />
+                <line number="28" hits="123" branch="false" />
+                <line number="29" hits="123" branch="false" />
+              </lines>
+            </method>
+            <method name="Invoke" signature="(System.Reflection.MethodInfo,System.Object[])" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="32" hits="1172436" branch="false" />
+                <line number="33" hits="1172436" branch="true" condition-coverage="50% (1/2)" />
+                <line number="34" hits="1172436" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="123" branch="false" />
+            <line number="26" hits="123" branch="false" />
+            <line number="27" hits="123" branch="false" />
+            <line number="28" hits="123" branch="false" />
+            <line number="29" hits="123" branch="false" />
+            <line number="32" hits="1172436" branch="false" />
+            <line number="33" hits="1172436" branch="true" condition-coverage="50% (1/2)" />
+            <line number="34" hits="1172436" branch="false" />
+          </lines>
+        </class>
+        <class name="GobanSource.ReplicatedLruCache.ReplicatedLruCacheServiceCollectionExtensions" filename="/home/runner/work/replicated-lru-cache/replicated-lru-cache/src/GobanSource.ReplicatedLruCache/ReplicatedLruCacheServiceCollectionExtensions.cs" line-rate="0.8625" branch-rate="0.75" complexity="20">
+          <methods>
+            <method name="EnsureReplicatedCacheFactory" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="113" branch="false" />
+                <line number="16" hits="1256" branch="true" condition-coverage="100% (2/2)" />
+                <line number="17" hits="104" branch="false" />
+                <line number="18" hits="104" branch="false" />
+                <line number="19" hits="104" branch="false" />
+                <line number="20" hits="113" branch="false" />
+                <line number="21" hits="113" branch="false" />
+              </lines>
+            </method>
+            <method name="AddReplicatedLruCache" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int32,System.String,System.Action`1&lt;GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions&gt;)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="29" hits="115" branch="false" />
+                <line number="30" hits="115" branch="true" condition-coverage="100% (2/2)" />
+                <line number="31" hits="2" branch="false" />
+                <line number="34" hits="113" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="113" branch="false" />
+                <line number="37" hits="113" branch="false" />
+                <line number="38" hits="226" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="113" branch="false" />
+                <line number="41" hits="113" branch="false" />
+                <line number="43" hits="113" branch="false" />
+                <line number="44" hits="113" branch="false" />
+                <line number="45" hits="224" branch="false" />
+                <line number="47" hits="113" branch="false" />
+                <line number="48" hits="112" branch="false" />
+                <line number="49" hits="112" branch="false" />
+                <line number="50" hits="112" branch="true" condition-coverage="100% (2/2)" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="113" branch="false" />
+                <line number="54" hits="111" branch="false" />
+                <line number="55" hits="111" branch="false" />
+                <line number="56" hits="111" branch="false" />
+                <line number="57" hits="111" branch="false" />
+                <line number="58" hits="224" branch="false" />
+                <line number="60" hits="113" branch="false" />
+                <line number="61" hits="113" branch="false" />
+              </lines>
+            </method>
+            <method name="AddRedisSyncBus" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action`1&lt;GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions&gt;)" line-rate="0.9354838709677419" branch-rate="0.6666666666666666" complexity="6">
+              <lines>
+                <line number="66" hits="113" branch="false" />
+                <line number="67" hits="113" branch="false" />
+                <line number="68" hits="113" branch="false" />
+                <line number="69" hits="226" branch="true" condition-coverage="50% (1/2)" />
+                <line number="71" hits="113" branch="false" />
+                <line number="72" hits="103" branch="false" />
+                <line number="73" hits="103" branch="false" />
+                <line number="74" hits="103" branch="true" condition-coverage="100% (2/2)" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="113" branch="false" />
+                <line number="78" hits="102" branch="false" />
+                <line number="79" hits="215" branch="false" />
+                <line number="81" hits="113" branch="false" />
+                <line number="82" hits="103" branch="false" />
+                <line number="83" hits="103" branch="false" />
+                <line number="84" hits="103" branch="true" condition-coverage="50% (1/2)" />
+                <line number="85" hits="0" branch="false" />
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="113" branch="false" />
+                <line number="88" hits="103" branch="false" />
+                <line number="89" hits="113" branch="false" />
+                <line number="90" hits="102" branch="false" />
+                <line number="91" hits="102" branch="false" />
+                <line number="92" hits="102" branch="false" />
+                <line number="93" hits="102" branch="false" />
+                <line number="94" hits="102" branch="false" />
+                <line number="95" hits="102" branch="false" />
+                <line number="96" hits="215" branch="false" />
+                <line number="98" hits="113" branch="false" />
+                <line number="99" hits="113" branch="false" />
+              </lines>
+            </method>
+            <method name="EnsureReplicatedCacheInfra" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action`1&lt;GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions&gt;)" line-rate="0.7777777777777778" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="104" hits="113" branch="false" />
+                <line number="105" hits="226" branch="true" condition-coverage="50% (1/2)" />
+                <line number="106" hits="0" branch="false" />
+                <line number="107" hits="0" branch="false" />
+                <line number="110" hits="113" branch="false" />
+                <line number="113" hits="113" branch="false" />
+                <line number="116" hits="113" branch="false" />
+                <line number="118" hits="113" branch="false" />
+                <line number="119" hits="113" branch="false" />
+              </lines>
+            </method>
+            <method name="AddReplicatedCacheMetrics" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="123" hits="0" branch="false" />
+                <line number="124" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="125" hits="0" branch="false" />
+                <line number="126" hits="0" branch="false" />
+                <line number="128" hits="0" branch="false" />
+                <line number="129" hits="0" branch="false" />
+                <line number="130" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="113" branch="false" />
+            <line number="16" hits="1256" branch="true" condition-coverage="100% (2/2)" />
+            <line number="17" hits="104" branch="false" />
+            <line number="18" hits="104" branch="false" />
+            <line number="19" hits="104" branch="false" />
+            <line number="20" hits="113" branch="false" />
+            <line number="21" hits="113" branch="false" />
+            <line number="29" hits="115" branch="false" />
+            <line number="30" hits="115" branch="true" condition-coverage="100% (2/2)" />
+            <line number="31" hits="2" branch="false" />
+            <line number="34" hits="113" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="113" branch="false" />
+            <line number="37" hits="113" branch="false" />
+            <line number="38" hits="226" branch="true" condition-coverage="100% (2/2)" />
+            <line number="40" hits="113" branch="false" />
+            <line number="41" hits="113" branch="false" />
+            <line number="43" hits="113" branch="false" />
+            <line number="44" hits="113" branch="false" />
+            <line number="45" hits="224" branch="false" />
+            <line number="47" hits="113" branch="false" />
+            <line number="48" hits="112" branch="false" />
+            <line number="49" hits="112" branch="false" />
+            <line number="50" hits="112" branch="true" condition-coverage="100% (2/2)" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="113" branch="false" />
+            <line number="54" hits="111" branch="false" />
+            <line number="55" hits="111" branch="false" />
+            <line number="56" hits="111" branch="false" />
+            <line number="57" hits="111" branch="false" />
+            <line number="58" hits="224" branch="false" />
+            <line number="60" hits="113" branch="false" />
+            <line number="61" hits="113" branch="false" />
+            <line number="66" hits="113" branch="false" />
+            <line number="67" hits="113" branch="false" />
+            <line number="68" hits="113" branch="false" />
+            <line number="69" hits="226" branch="true" condition-coverage="50% (1/2)" />
+            <line number="71" hits="113" branch="false" />
+            <line number="72" hits="103" branch="false" />
+            <line number="73" hits="103" branch="false" />
+            <line number="74" hits="103" branch="true" condition-coverage="100% (2/2)" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="113" branch="false" />
+            <line number="78" hits="102" branch="false" />
+            <line number="79" hits="215" branch="false" />
+            <line number="81" hits="113" branch="false" />
+            <line number="82" hits="103" branch="false" />
+            <line number="83" hits="103" branch="false" />
+            <line number="84" hits="103" branch="true" condition-coverage="50% (1/2)" />
+            <line number="85" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="113" branch="false" />
+            <line number="88" hits="103" branch="false" />
+            <line number="89" hits="113" branch="false" />
+            <line number="90" hits="102" branch="false" />
+            <line number="91" hits="102" branch="false" />
+            <line number="92" hits="102" branch="false" />
+            <line number="93" hits="102" branch="false" />
+            <line number="94" hits="102" branch="false" />
+            <line number="95" hits="102" branch="false" />
+            <line number="96" hits="215" branch="false" />
+            <line number="98" hits="113" branch="false" />
+            <line number="99" hits="113" branch="false" />
+            <line number="104" hits="113" branch="false" />
+            <line number="105" hits="226" branch="true" condition-coverage="50% (1/2)" />
+            <line number="106" hits="0" branch="false" />
+            <line number="107" hits="0" branch="false" />
+            <line number="110" hits="113" branch="false" />
+            <line number="113" hits="113" branch="false" />
+            <line number="116" hits="113" branch="false" />
+            <line number="118" hits="113" branch="false" />
+            <line number="119" hits="113" branch="false" />
+            <line number="123" hits="0" branch="false" />
+            <line number="124" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="125" hits="0" branch="false" />
+            <line number="126" hits="0" branch="false" />
+            <line number="128" hits="0" branch="false" />
+            <line number="129" hits="0" branch="false" />
+            <line number="130" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
