@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "generatedon": "2025-06-14T14:49:28Z",
+    "parser": "Cobertura",
+    "assemblies": 1,
+    "classes": 3,
+    "files": 3,
+    "coveredlines": 227,
+    "uncoveredlines": 0,
+    "coverablelines": 227,
+    "totallines": 433,
+    "linecoverage": 100,
+    "coveredbranches": 19,
+    "totalbranches": 20,
+    "branchcoverage": 95,
+    "coveredmethods": 17,
+    "fullcoveredmethods": 17,
+    "totalmethods": 17,
+    "methodcoverage": 100,
+    "fullmethodcoverage": 100
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "GobanSource.Bus.Redis", "classes": 3, "coverage": 100, "coveredlines": 227, "coverablelines": 227, "totallines": 433, "branchcoverage": 95, "coveredbranches": 19, "totalbranches": 20, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 17, "fullcoveredmethods": 17, "totalmethods": 17, "classesinassembly": [
+        { "name": "GobanSource.Bus.Redis.BaseMessage", "coverage": 100, "coveredlines": 4, "coverablelines": 4, "totallines": 19, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 4, "fullcoveredmethods": 4, "totalmethods": 4 },
+        { "name": "GobanSource.Bus.Redis.MessageSyncHostedService\u00601", "coverage": 100, "coveredlines": 49, "coverablelines": 49, "totallines": 111, "branchcoverage": 100, "coveredbranches": 2, "totalbranches": 2, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 5, "fullcoveredmethods": 5, "totalmethods": 5 },
+        { "name": "GobanSource.Bus.Redis.RedisSyncBus\u00601", "coverage": 100, "coveredlines": 174, "coverablelines": 174, "totallines": 303, "branchcoverage": 94.4, "coveredbranches": 17, "totalbranches": 18, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 8, "fullcoveredmethods": 8, "totalmethods": 8 } ] } ]
+  }
+}
