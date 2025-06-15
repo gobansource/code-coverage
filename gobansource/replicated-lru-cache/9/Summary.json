@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "generatedon": "2025-06-15T12:55:13Z",
+    "parser": "Cobertura",
+    "assemblies": 1,
+    "classes": 9,
+    "files": 8,
+    "coveredlines": 249,
+    "uncoveredlines": 24,
+    "coverablelines": 273,
+    "totallines": 543,
+    "linecoverage": 91.2,
+    "coveredbranches": 45,
+    "totalbranches": 54,
+    "branchcoverage": 83.3,
+    "coveredmethods": 29,
+    "fullcoveredmethods": 27,
+    "totalmethods": 34,
+    "methodcoverage": 85.2,
+    "fullmethodcoverage": 79.4
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "GobanSource.ReplicatedLruCache", "classes": 9, "coverage": 91.2, "coveredlines": 249, "coverablelines": 273, "totallines": 556, "branchcoverage": 83.3, "coveredbranches": 45, "totalbranches": 54, "methodcoverage": 85.2, "fullmethodcoverage": 79.4, "coveredmethods": 29, "fullcoveredmethods": 27, "totalmethods": 34, "classesinassembly": [
+        { "name": "GobanSource.ReplicatedLruCache.CacheMessage", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 58, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 5, "fullcoveredmethods": 5, "totalmethods": 5 },
+        { "name": "GobanSource.ReplicatedLruCache.CacheMessageHandler", "coverage": 91.8, "coveredlines": 34, "coverablelines": 37, "totallines": 67, "branchcoverage": 83.3, "coveredbranches": 5, "totalbranches": 6, "methodcoverage": 100, "fullmethodcoverage": 50, "coveredmethods": 2, "fullcoveredmethods": 1, "totalmethods": 2 },
+        { "name": "GobanSource.ReplicatedLruCache.CacheMetrics", "coverage": 0, "coveredlines": 0, "coverablelines": 10, "totallines": 24, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "fullmethodcoverage": 0, "coveredmethods": 0, "fullcoveredmethods": 0, "totalmethods": 4 },
+        { "name": "GobanSource.ReplicatedLruCache.LruCache", "coverage": 100, "coveredlines": 101, "coverablelines": 101, "totallines": 182, "branchcoverage": 91.6, "coveredbranches": 22, "totalbranches": 24, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 8, "fullcoveredmethods": 8, "totalmethods": 8 },
+        { "name": "GobanSource.ReplicatedLruCache.RedisSyncBusOptions", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 13, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 1, "fullcoveredmethods": 1, "totalmethods": 1 },
+        { "name": "GobanSource.ReplicatedLruCache.ReplicatedLruCache", "coverage": 100, "coveredlines": 39, "coverablelines": 39, "totallines": 59, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 5, "fullcoveredmethods": 5, "totalmethods": 5 },
+        { "name": "GobanSource.ReplicatedLruCache.ReplicatedLruCacheOptions", "coverage": 100, "coveredlines": 2, "coverablelines": 2, "totallines": 13, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 2, "fullcoveredmethods": 2, "totalmethods": 2 },
+        { "name": "GobanSource.ReplicatedLruCache.ReplicatedLruCacheProxy\u00601", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 20, "branchcoverage": 50, "coveredbranches": 1, "totalbranches": 2, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 3, "fullcoveredmethods": 3, "totalmethods": 3 },
+        { "name": "GobanSource.ReplicatedLruCache.ReplicatedLruCacheServiceCollectionExtensions", "coverage": 84, "coveredlines": 58, "coverablelines": 69, "totallines": 120, "branchcoverage": 77.2, "coveredbranches": 17, "totalbranches": 22, "methodcoverage": 75, "fullmethodcoverage": 50, "coveredmethods": 3, "fullcoveredmethods": 2, "totalmethods": 4 } ] } ]
+  }
+}
