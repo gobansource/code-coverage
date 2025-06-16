@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "generatedon": "2025-06-16T03:54:05Z",
+    "parser": "Cobertura",
+    "assemblies": 1,
+    "classes": 4,
+    "files": 4,
+    "coveredlines": 213,
+    "uncoveredlines": 1,
+    "coverablelines": 214,
+    "totallines": 417,
+    "linecoverage": 99.5,
+    "coveredbranches": 18,
+    "totalbranches": 18,
+    "branchcoverage": 100,
+    "coveredmethods": 16,
+    "fullcoveredmethods": 16,
+    "totalmethods": 17,
+    "methodcoverage": 94.1,
+    "fullmethodcoverage": 94.1
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "GobanSource.Bus.Redis", "classes": 4, "coverage": 99.5, "coveredlines": 213, "coverablelines": 214, "totallines": 417, "branchcoverage": 100, "coveredbranches": 18, "totalbranches": 18, "methodcoverage": 94.1, "fullmethodcoverage": 94.1, "coveredmethods": 16, "fullcoveredmethods": 16, "totalmethods": 17, "classesinassembly": [
+        { "name": "GobanSource.Bus.Redis.BaseMessage", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 17, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 3, "fullcoveredmethods": 3, "totalmethods": 3 },
+        { "name": "GobanSource.Bus.Redis.MessageSyncHostedService\u00601", "coverage": 100, "coveredlines": 49, "coverablelines": 49, "totallines": 111, "branchcoverage": 100, "coveredbranches": 2, "totalbranches": 2, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 5, "fullcoveredmethods": 5, "totalmethods": 5 },
+        { "name": "GobanSource.Bus.Redis.RedisSyncBus\u00601", "coverage": 100, "coveredlines": 161, "coverablelines": 161, "totallines": 284, "branchcoverage": 100, "coveredbranches": 16, "totalbranches": 16, "methodcoverage": 100, "fullmethodcoverage": 100, "coveredmethods": 8, "fullcoveredmethods": 8, "totalmethods": 8 },
+        { "name": "GobanSource.Bus.Redis.RedisSyncBusOptions", "coverage": 0, "coveredlines": 0, "coverablelines": 1, "totallines": 5, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "fullmethodcoverage": 0, "coveredmethods": 0, "fullcoveredmethods": 0, "totalmethods": 1 } ] } ]
+  }
+}
