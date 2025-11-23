@@ -1,0 +1,26 @@
+Summary
+  Generated on: 11/23/2025 - 05:32:42
+  Coverage date: 11/23/2025 - 05:32:42
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 4
+  Files: 4
+  Line coverage: 99.6%
+  Covered lines: 251
+  Uncovered lines: 1
+  Coverable lines: 252
+  Total lines: 475
+  Branch coverage: 100% (26 of 26)
+  Covered branches: 26
+  Total branches: 26
+  Method coverage: 94.4% (17 of 18)
+  Full method coverage: 94.4% (17 of 18)
+  Covered methods: 17
+  Fully covered methods: 17
+  Total methods: 18
+
+GobanSource.Bus.Redis                                 99.6%
+  GobanSource.Bus.Redis.BaseMessage                    100%
+  GobanSource.Bus.Redis.MessageSyncHostedService<T>    100%
+  GobanSource.Bus.Redis.RedisSyncBus<T>                100%
+  GobanSource.Bus.Redis.RedisSyncBusOptions              0%
